@@ -1,7 +1,15 @@
 let bodyPag = document.querySelector("body")
 let navbar = document.createElement ("nav")
-navbar.classList.add("navbar", "navbar-expand-lg", "bg-light")
+navbar.className = "navbar navbar-expand-lg bg-light" 
 bodyPag.appendChild (navbar)
 
-let divHijoNavbar = document.createElement ("div")
-divHijoNavbar.className = "container-fluid"
+let divUNONavbar = document.createElement ("div") 
+divUNONavbar.className = "container-fluid"
+navbar.appendChild (divUNONavbar)
+
+let aUNOdiv = document.createElement ("a")
+aUNOdiv.className = "navbar-brand"
+aUNOdiv.setAttribute ("href", "#")
+divUNONavbar.appendChild (aUNOdiv)
+
+ 

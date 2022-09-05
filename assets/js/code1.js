@@ -245,7 +245,27 @@ div1_divSectionFooter.appendChild (div1_div1_divSectionFooter3)
 let H6_div1_divSectionFooter3 = document.createElement ("h6")
 H6_div1_divSectionFooter3.className = "mb-4"
 H6_div1_divSectionFooter3.innerText = "Soporte"
-div1_div1_divSectionFooter.appendChild (H6_div1_divSectionFooter3) // REVISASR 
+div1_div1_divSectionFooter3.appendChild (H6_div1_divSectionFooter3)
+
+let li_div1_div1_divSectionFooter7 = document.createElement ("li")
+li_div1_div1_divSectionFooter7.setAttribute ("style", "list-style: none;")
+li_div1_div1_divSectionFooter7.innerText = "Ayuda / Contáctanos"
+div1_div1_divSectionFooter3.appendChild (li_div1_div1_divSectionFooter7)
+
+let li_div1_div1_divSectionFooter8 = document.createElement ("li")
+li_div1_div1_divSectionFooter8.setAttribute ("style", "list-style: none;")
+li_div1_div1_divSectionFooter8.innerText = "Guia de clasificaciones"
+div1_div1_divSectionFooter3.appendChild (li_div1_div1_divSectionFooter8)
+
+
+let div1_div1_divSectionFooter4 = document.createElement ("div")
+div1_div1_divSectionFooter4.className = "textoFooter p-4"
+div1_div1_divSectionFooter4.innerText = "© 2022 Paramount. Todos los derechos reservados."
+div1_divSectionFooter.appendChild (div1_div1_divSectionFooter4)
+
+
+
+
 
 
 

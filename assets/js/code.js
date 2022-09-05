@@ -115,9 +115,6 @@ div_a_Span_div02Section.className = "button__text"
 div_a_Span_div02Section.innerText = "YA TENGO PARAMOUNT+ "
 aSpan_div02Section.appendChild (div_a_Span_div02Section)
 
-let a_2_Span_div02Section = document.createElement ("a")
-a_2_Span_div02Section.setAttribute ("href")
-a_2_Span_div02Section.className = 
 
 
 
@@ -127,21 +124,6 @@ a_2_Span_div02Section.className =
 
 
 
-
-
-
-
-
-
-
-
-
-
-//footer ________________________________
-
-let footer = document.createElement ("footer")
-footer.setAttribute ("aa-region", "global footer")
-bodyPag.appendChild (footer)
 
 
 
